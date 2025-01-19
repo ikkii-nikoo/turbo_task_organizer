@@ -1,0 +1,19 @@
+[project]
+name = "turbo-task-manager"
+version = "0.1.0"
+description = "Portable To Do List with lots of features upcoming!"
+authors = [
+    {name = "biscuit",email = "ikki.niko@outlook.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "turbo_task_manager"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
